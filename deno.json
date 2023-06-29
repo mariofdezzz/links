@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch scripts/dev.ts",
+    "start": "deno run --allow-read --allow-net src/index.ts"
+  },
+  "fmt": {
+    "options": {
+      "useTabs": true,
+      "indentWidth": 2,
+      "lineWidth": 80,
+      "singleQuote": true,
+      "proseWrap": "preserve"
+    }
+  }
+}
